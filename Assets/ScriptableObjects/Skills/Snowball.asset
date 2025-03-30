@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b392ae27822651498a1b6809b88b5f3, type: 3}
+  m_Name: Snowball
+  m_EditorClassIdentifier: 
+  skillName: Snowball
+  description: Trow a snowball
+  skillLevel: 2
+  cost: 5
+  preRequisites:
+  - {fileID: 11400000, guid: f5d6d5fc81f9430409f8330c92cc5fef, type: 2}
